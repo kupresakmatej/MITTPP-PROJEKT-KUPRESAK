@@ -86,7 +86,7 @@
 		C2EDD55F2B71BF5D0071B822 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3E7C42AC41C3400881AE7 /* RootCoordinator.swift */; };
 		C2EDD5602B71BF5D0071B822 /* PersistentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3E7E62AD3E65000881AE7 /* PersistentService.swift */; };
 		C2EDD5612B71BF5D0071B822 /* HomeShowElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3E7D32ACAC71900881AE7 /* HomeShowElement.swift */; };
-		C2EDD5A32B71C1990071B822 /* HomeToDetailsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EDD5A22B71C1990071B822 /* HomeToDetailsTest.swift */; };
+		C2EDD5A32B71C1990071B822 /* HomeToFavoritesToggleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EDD5A22B71C1990071B822 /* HomeToFavoritesToggleTest.swift */; };
 		C2EDD5AB2B71C1C80071B822 /* PersistentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3E7E62AD3E65000881AE7 /* PersistentService.swift */; };
 		C2EDD5AC2B71C1C80071B822 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3E7E82AD3E98200881AE7 /* ServiceFactory.swift */; };
 		C2EDD5AD2B71C1C80071B822 /* MockServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E37A222B6DA888001A3CE2 /* MockServices.swift */; };
@@ -198,7 +198,7 @@
 		C2E37A652B6DB79F001A3CE2 /* ShowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E37A672B6DB79F001A3CE2 /* ShowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsUITests.swift; sourceTree = "<group>"; };
 		C2EDD5A02B71C1990071B822 /* HomeToFavoritesCountTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeToFavoritesCountTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2EDD5A22B71C1990071B822 /* HomeToDetailsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeToDetailsTest.swift; sourceTree = "<group>"; };
+		C2EDD5A22B71C1990071B822 /* HomeToFavoritesToggleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeToFavoritesToggleTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,7 +239,7 @@
 				C26FBEB52AB8479300DD791A /* Shows */,
 				C2E37A142B6DA1E2001A3CE2 /* ViewModelInitializationTests */,
 				C2E37A662B6DB79F001A3CE2 /* ShowsUITests */,
-				C2EDD5A12B71C1990071B822 /* HomeToDetailsTest */,
+				C2EDD5A12B71C1990071B822 /* HomeToFavoritesToggleTest */,
 				C26FBEB42AB8479300DD791A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -410,12 +410,12 @@
 			path = ShowsUITests;
 			sourceTree = "<group>";
 		};
-		C2EDD5A12B71C1990071B822 /* HomeToDetailsTest */ = {
+		C2EDD5A12B71C1990071B822 /* HomeToFavoritesToggleTest */ = {
 			isa = PBXGroup;
 			children = (
-				C2EDD5A22B71C1990071B822 /* HomeToDetailsTest.swift */,
+				C2EDD5A22B71C1990071B822 /* HomeToFavoritesToggleTest.swift */,
 			);
-			path = HomeToDetailsTest;
+			path = HomeToFavoritesToggleTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -697,7 +697,7 @@
 				C2EDD5AE2B71C1C80071B822 /* NetworkConfiguration.swift in Sources */,
 				C2EDD5B52B71C1D20071B822 /* HomeScheduleElement.swift in Sources */,
 				C2EDD5BA2B71C1DA0071B822 /* SearchView.swift in Sources */,
-				C2EDD5A32B71C1990071B822 /* HomeToDetailsTest.swift in Sources */,
+				C2EDD5A32B71C1990071B822 /* HomeToFavoritesToggleTest.swift in Sources */,
 				C2EDD5AF2B71C1C80071B822 /* NetworkingService.swift in Sources */,
 				C2EDD5AC2B71C1C80071B822 /* ServiceFactory.swift in Sources */,
 				C2EDD5B12B71C1CA0071B822 /* Show.swift in Sources */,

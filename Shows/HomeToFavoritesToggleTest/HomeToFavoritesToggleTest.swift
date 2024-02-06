@@ -7,7 +7,7 @@
 
 import XCTest
 
-class HomeToFavortiesCountTest: XCTestCase {
+class HomeToFavortiesToggleTest: XCTestCase {
 
     func testNavigationToFavoritesAndTogglingFavorites() throws {
         let app = XCUIApplication()

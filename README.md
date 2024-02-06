@@ -6,6 +6,7 @@ Sastoji se od od 3 Xcode Unit Testa kao i od 2 UI Testa.
 
 Za pokretanje i testiranje samog projekta, potrebno je klonirati GitHub repozitorij, zatim otvoriti projekt u Xcode-u. Nakon što se projekt pokrenuo potrebno je sa lijeve strane u navigatoru pritisnuti na 6. ikonicu(mali dijamant sa kvačicom unutra) kako bi se došlo do ekrana gdje su prikazani svi testovi. Moguće je sa desne strane imena testa pokrenuti ih pojedinačno ili skroz na vrhu pokrenuti sve testove istovremeno.
 
+Testiranje se obavlja na vlastitom projektu - završni projekt sa prakse(COBE internship).
      
 ## Informacije
 

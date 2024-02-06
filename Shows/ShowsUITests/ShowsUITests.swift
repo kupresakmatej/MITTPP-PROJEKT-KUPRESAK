@@ -44,7 +44,7 @@ class SearchViewUITests: XCTestCase {
         // Tap the search bar to ensure it gains focus
         searchBar.tap()
         
-        // Add a slight delay before typing (optional)
+        // Add a slight delay before typing
         sleep(2)
 
         // Enter a search query
